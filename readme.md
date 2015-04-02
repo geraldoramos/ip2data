@@ -59,8 +59,9 @@ ip2data(ip,function(error,result){
 Create an Angular map to show connected users in a map in real-time
 
 ## Installation
-
+```
 npm install ip2data
+```
 
 ## License
 
