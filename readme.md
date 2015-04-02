@@ -31,7 +31,7 @@ var ip2dataConfig = {
         
   },
 
-  IpApiEndpoint: "http://www.telize.com/geoip/" // make sure to end with "/"
+  IpApiEndpoint: "http://www.telize.com/geoip/"
 
 }
 ```
