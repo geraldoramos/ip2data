@@ -12,13 +12,6 @@ http://ip-api.com/json/
 
 ## Usage
 
-Initialize ip2data module
-
-```
-var ip2data = require('./ip2data.js')(ip2dataConfig)
-
-```
-
 Create a configuration variable
 
 ```
@@ -43,8 +36,14 @@ var ip2dataConfig = {
 }
 ```
 
-Initiate the function
+Initialize ip2data module
 
+```
+var ip2data = require('ip2data')(ip2dataConfig)
+
+```
+
+Initiate the function
 
 ```
 ip2data(ip,function(error,result){
