@@ -16,7 +16,8 @@ Initialize ip2data module
 
 ```
 var ip2data = require('./ip2data.js')(ip2dataConfig)
-``
+
+```
 
 Create a configuration variable
 
