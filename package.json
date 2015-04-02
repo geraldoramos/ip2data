@@ -15,7 +15,11 @@
   "ip information",
   "ip data",
   "ip query",
-  "ip cache"
+  "ip cache",
+  "ip-api",
+  "telize"
+
+
 ],
   "dependencies": {
     "Firebase": "*",

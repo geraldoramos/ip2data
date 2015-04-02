@@ -12,7 +12,7 @@ http://ip-api.com/json/
 
 ## Usage
 
-Create a configuration variable
+Create a configuration variable. 
 
 ```
 var ip2dataConfig = {
@@ -43,7 +43,7 @@ var ip2data = require('ip2data')(ip2dataConfig)
 
 ```
 
-Initiate the function passing the ip address
+Initiate the function passing the ip address. The result will be an object with informations such as city, latitude, longitude, depending on selected API.
 
 ```
 ip2data(ip,function(error,result){
@@ -56,7 +56,7 @@ ip2data(ip,function(error,result){
 
 ## Motivation
 
-Create an Angular map to show connected users in a map in real-time
+Create an Angular app to show connected users in a map in real-time
 
 ## Installation
 ```
