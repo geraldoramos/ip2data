@@ -152,8 +152,8 @@ module.exports = function(userConfig){
               // console.log("Ip information from cache")
             }
             else {
-              get.LocationOn(ip, function(gggg){
-              cb(null,gggg)
+              get.LocationOn(ip, function(getdata){
+              cb(null,getdata)
               // console.log("No cache available, information from the API")
               })
             }  

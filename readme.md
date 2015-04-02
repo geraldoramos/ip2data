@@ -14,7 +14,7 @@ http://ip-api.com/json/
 
 Create a configuration variable. 
 
-```
+```js
 var ip2dataConfig = {
 
   cache: {
@@ -38,14 +38,14 @@ var ip2dataConfig = {
 
 Initialize ip2data module
 
-```
+```js
 var ip2data = require('ip2data')(ip2dataConfig)
 
 ```
 
 Initiate the function passing the ip address. The result will be an object with informations such as city, latitude, longitude, depending on selected API.
 
-```
+```js
 ip2data(ip,function(error,result){
 
   console.log(result)
