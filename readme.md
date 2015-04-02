@@ -43,7 +43,7 @@ var ip2data = require('ip2data')(ip2dataConfig)
 
 ```
 
-Initiate the function
+Initiate the function passing the ip address
 
 ```
 ip2data(ip,function(error,result){
