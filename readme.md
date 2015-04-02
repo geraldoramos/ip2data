@@ -56,7 +56,7 @@ ip2data(ip,function(error,result){
 
 ## Motivation
 
-Create an Angular app to show connected users in a map in real-time
+Create an Angular app to show connected users in a map in real-time.
 
 ## Installation
 ```
