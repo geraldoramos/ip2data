@@ -1,10 +1,12 @@
 ## Synopsis
 
-Module to return an object with location information from an IP address.
+Node.js module to return an object with location information from an IP address.
 This module can be used with various free location API's and will cache the information locally and(optionally) on Firebase to avoid hiting the API too frequently
 
 API's tested:
+
 http://telize.com/geoip/
+
 http://ip-api.com/json/
 
 
