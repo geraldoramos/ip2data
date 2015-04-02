@@ -19,7 +19,7 @@ var ip2dataConfig = {
 
   cache: {
     firebase: {
-      firebaseUrl: [FIREBASE_URL]",
+      firebaseUrl: "[FIREBASE_URL]",
       firebaseKey: "[FIREBASE_KEY]",
       expiration: 72, // Expiration in hours
       keyname: "ipcache"  
