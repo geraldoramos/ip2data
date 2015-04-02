@@ -5,9 +5,9 @@ This module can be used with various free location API's and will cache the info
 
 API's tested:
 
-http://telize.com/geoip/
-
 http://ip-api.com/json/
+
+http://telize.com/geoip/
 
 
 ## Usage
@@ -31,7 +31,7 @@ var ip2dataConfig = {
         
   },
 
-  IpApiEndpoint: "http://www.telize.com/geoip/" // You can also use http://ip-api.com/json/
+  IpApiEndpoint: "http://ip-api.com/json/" // You can also use http://www.telize.com/geoip/
 
 }
 ```
