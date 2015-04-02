@@ -1,0 +1,24 @@
+{
+  "name": "ip2data",
+  "version": "1.0.0",
+  "description": "Module to return location information about an IP address. This module can be used with various free location API's and will cache the information locally and(optionally) on Firebase to avoid hiting the API too frequently",
+  "author": "Geraldo Ramos <geraldo@hackhands.com>",
+  "license": "MIT",
+
+  "main": "ip2data.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/geraldoramos/ip2data"
+},
+  "keywords": [
+  "ip location",
+  "ip information",
+  "ip data",
+  "ip query",
+  "ip cache"
+],
+  "dependencies": {
+    "Firebase": "*",
+    "node-rest-client'": "*"
+  }
+}
